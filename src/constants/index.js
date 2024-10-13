@@ -1,8 +1,8 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
-import project5 from "../assets/projects/project-5.jpg";
+import project1 from "../assets/projects/Project-1.jpg";
+import project2 from "../assets/projects/Project-2.jpg";
+import project3 from "../assets/projects/Project-3.jpg";
+import project4 from "../assets/projects/Project-4.jpg";
+import project5 from "../assets/projects/Project-5.jpg";
 
 export const HERO_CONTENT = `I am a passionate data scientist and machine learning researcher with a deep interest in developing accurate and impactful models. With 4 years of hands-on experience, I have sharpened my skills in analyzing complex datasets, implementing cutting-edge algorithms, and optimizing machine learning pipelines. My expertise spans statistical analysis, data preprocessing, and model deployment, allowing me to deliver robust and scalable solutions. I am driven by the potential of data to drive innovation and decision-making, and my goal is to leverage my expertise to push the boundaries of research and create solutions that solve real-world problems.`;
 
