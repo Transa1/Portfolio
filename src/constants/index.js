@@ -72,7 +72,7 @@ export const PROJECTS = [
     title: "Game Store Inventory Control",
     image: project3,
     description:
-      "A Swing software that tracks the sales and generates reports of the inventory of a medium size game store.",
+      "A Swing application that tracks sales and generates inventory reports for a mid-sized game store.",
     technologies: ["Java", "PostgreSQL", "Swing"],
   }
 ];
