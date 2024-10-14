@@ -29,7 +29,7 @@ const Hero = () => {
                         Data Scientist & Machine Learning Researcher
                     </motion.span>
                     <motion.p variants={container(1)} initial='hidden' animate='visible' className='my-2 max-w-xl py-6 font-light tracking-tighter'>{HERO_CONTENT}</motion.p>
-                    <motion.a variants={container(1.5)} initial='hidden' animate='visible' href="src/assets/CV Kevin Martínez.pdf" download  className='no-underline tracking-thin text-white font-medium'>
+                    <motion.a variants={container(1.5)} initial='hidden' animate='visible' href="/CV Kevin Martínez.pdf" download  className='no-underline tracking-thin text-white font-medium'>
                         <FontAwesomeIcon icon={faCloudDownload} className='mr-2' />
                         Download my résumé
                     </motion.a>
