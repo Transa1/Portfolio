@@ -1,12 +1,12 @@
 import project1 from "../assets/projects/Project-1.jpg";
 import project2 from "../assets/projects/Project-2.jpg";
-import project3 from "../assets/projects/Project-3.jpg";
-import project4 from "../assets/projects/Project-4.jpg";
-import project5 from "../assets/projects/Project-5.jpg";
+import project3 from "../assets/projects/cluster.avif";
+import project4 from "../assets/projects/llm.avif";
+import project5 from "../assets/projects/map.avif";
 
 export const HERO_CONTENT = `I am a passionate data scientist and machine learning researcher with a deep interest in developing accurate and impactful models. With 4 years of hands-on experience, I have sharpened my skills in analyzing complex datasets, implementing cutting-edge algorithms, and optimizing machine learning pipelines. My expertise spans statistical analysis, data preprocessing, and model deployment, allowing me to deliver robust and scalable solutions. I am driven by the potential of data to drive innovation and decision-making, and my goal is to leverage my expertise to push the boundaries of research and create solutions that solve real-world problems.`;
 
-export const ABOUT_TEXT = `I am a highly dedicated and professional software developer with a strong focus on Python, Java, and C++. With experience contributing to various projects for both public and private institutions, I specialize in advanced data structures and machine learning. My expertise lies in crafting complex, efficient solutions, backed by excellent time management, attention to detail, and a commitment to AGILE methodologies. I am also a strong team player with effective communication skills, empathy, and leadership qualities, consistently aiming to deliver impactful results.`;
+export const ABOUT_TEXT = `Passionate and highly skilled Data Scientist and Software Engineer with a solid background in Python, Java, and C++, and experience delivering AI-driven solutions across public and private sectors. Specializing in advanced data structures, machine learning, and full-cycle data pipelines—from collection and preprocessing to model development and deployment. Proven ability to work with large datasets, apply deep learning and statistical analysis, and drive predictive modeling projects. Adept in AGILE environments, with strong communication, leadership, and time management skills, committed to continuous learning and impactful, data-driven results.`;
 
 export const EXPERIENCES = [
   {
@@ -17,25 +17,25 @@ export const EXPERIENCES = [
     technologies: ["Python", "Scikit-Learn", "Polars", "StatsForecast", "Flask"],
   },
   {
+    year: "Nov-2024 - Present",
+    role: "Data Engineer",
+    company: "Universidad de Sonora",
+    description: `Developed an AI-powered academic advisor at the University of Sonora, leveraging historical academic data and clustering algorithms to recommend optimal courses based on student success likelihood. Designed and implemented scalable data pipelines and machine learning workflows to enable real-time recommendations, ensuring data privacy and compliance with institutional policies.`,
+    technologies: ["Python", "Scikit-Learn", "Jenkins CI/CD", "Polars", "Seaborn"],
+  },
+  {
+    year: "Feb-2025 - June-2025",
+    role: "Data Analyst and Machine Learning Researcher ",
+    company: "University of California Davis",
+    description: `Contributed to a research initiative at the University of California, Davis, by designing and implementing a geographic clustering model to identify strategic locations for lithium battery recycling facilities for electric vehicles. The model integrated multi-dimensional datasets—population density, environmental impact, regulations, and industrial infrastructure—and was supported by a multi-criteria analysis that considered projected job creation, pollution reduction, socio-economic effects, and policy compliance to inform sustainable site selection.`,
+    technologies: ["Python", "Plotly", "Follium", "ArcGIS", "PowerBI"],
+  },
+  {
     year: "Jun-2024 - Nov-2024",
     role: "Fullstack Developer",
     company: "Enroque Bienes Raíces",
     description: `Designed and developed a real estate platform for listing properties, managing user accounts, and facilitating transactions. Implemented features such as property search, user authentication and a secure monitoring process for both the realtor and the clients.`,
     technologies: ["Django", "PostgreSQL", "TailwindCSS", "Selenium"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Leetcode Tutor",
-    company: "COBACH JGCC",
-    description: `Helped in the education of more than 60 high school students in the area of software development and competitive programming. Managed to educate highly successful students who brought back home two state wide bronze medals and one nationwide silver medal.`,
-    technologies: ["C++", "Python", "C#"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Embedded Systems Developer",
-    company: "COBACH JGCC",
-    description: `Desgined, programmed and implemented multiple systems on Arduino and Raspberry Pi for the educational purposes of more than 30 high school students, projects include miniature replica of a RC car controlled via remote app, humidity tracker and prosthetic arm.`,
-    technologies: ["C++", "Arduino", "Raspberry Pi", "Python", "3D Printing", "CNC"],
   },
 ];
 
@@ -48,33 +48,33 @@ export const PROJECTS = [
     technologies: ["Python", "Scikit-Learn", "Polars", "StatsForecast", "Flask"],
   },
   {
+    title: "Geospatial Site Planner",
+    image: project5,
+    description:
+      "A machine learning system developed to determine optimal facility locations by analyzing geographic, environmental, and socio-economic data, supporting strategic planning and sustainable infrastructure development.",
+    technologies: ["Python", "PowerBI", "Plotly", "Follium", "ArcGIS", "Kepler"],
+  },
+  {
+    title: "AI Academic Mentor",
+    image: project3,
+    description:
+      "AI-driven recommendation system for personalized learning guidance in academic environments.",
+    technologies: ["Python", "Polars", "Seaborn", "Jenkins CI/CD"],
+  },
+  {
+    title: "University LLM System",
+    image: project4,
+    description:
+      "AI Assistant for Students – A domain-specific large language model designed to provide intelligent tutoring and academic support.",
+    technologies: ["Python", "Hugging Face Transformers", "Ollama", "Distributed Computing", "On Demand for Supercomputing Clusters"],
+  },
+  {
     title: "Realtor Platform",
     image: project2,
     description:
       "A real estate platform built to streamline property listings, manage user accounts, and handle client-realtor transactions in a secure and efficient way.",
     technologies: ["Django", "PostgreSQL", "TailwindCSS", "Selenium", "Python", "JavaScript"],
   },
-  {
-    title: "Prosthetic Arm",
-    image: project4,
-    description:
-      "A functioning prosthetic arm printed on PLA that detects nerve induced signals and executes the movement on it's limbs.",
-    technologies: ["C++", "Arduino", "Fusion 360", "Proteus", "Python"],
-  },
-  {
-    title: "RC Car",
-    image: project5,
-    description:
-      "A minituare version of a Range Rover 4x4 powered by an arduino uno, controlled via a mobile app.",
-    technologies: ["C++", "Arduino", "Fuison 360", "Proteus", "MIT App Inventor"],
-  },
-  {
-    title: "Game Store Inventory Control",
-    image: project3,
-    description:
-      "A Swing application that tracks sales and generates inventory reports for a mid-sized game store.",
-    technologies: ["Java", "PostgreSQL", "Swing"],
-  }
 ];
 
 export const CONTACT = {
